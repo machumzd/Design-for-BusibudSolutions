@@ -1,5 +1,5 @@
 body {
-  margin: 3rem;
+  margin: 1rem;
   font-size: 2rem;
   color: #0E2431;
   font-family: "Poppins", sans-serif;
@@ -271,6 +271,19 @@ body {
   opacity: 1;
   height: 50vh;
 }
+.background-5 .section-5 .sec5-button {
+  position: absolute;
+  background-color: #FFFFFF;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 50px;
+  left: 90%;
+  top: 40%;
+}
+.background-5 .section-5 .sec5-button .arrowButton {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
 .background-5 .section-5 .sec5-Header {
   display: flex;
   flex-direction: row;
@@ -337,4 +350,59 @@ body {
   font-weight: 400;
   padding: 20px;
   width: 90%;
+}
+
+.background-6 {
+  width: 100%;
+  position: relative;
+  height: 50vh;
+}
+.background-6 .subTitle {
+  font-size: 2rem;
+  font-weight: 900;
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+.background-6 .section-6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.background-6 .section-6 .sec6-Banner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.background-6 .section-6 .sec6-Banner .sec6-Img {
+  width: 150px;
+  height: 100px;
+}
+.background-6 .section-6 .sec6-Banner .sec6-text {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.background-7 {
+  width: 100%;
+  position: relative;
+  height: 30vh;
+  background-color: black;
+}
+.background-7 .footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17%;
+}
+.background-7 .footer .copyright {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
