@@ -17,6 +17,7 @@
     display: flex;
     padding: 50px;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -54,15 +55,16 @@ body {
             justify-content: center;
         }
 
-        .navbar{
-            
+        .navbar {
+
             margin-top: 30px;
-        
+
 
             .nav-link {
                 &:hover {
                     color: green;
                 }
+
                 font-size: 1.5rem;
                 color: black;
                 font-weight: 600;
@@ -101,6 +103,7 @@ body {
         .button {
             @include Button;
         }
+
     }
 
     /*section 2*/
@@ -126,7 +129,7 @@ body {
                 width: 308px;
                 height: 300px;
                 top: 940px;
-                left: 486px;
+                left: 466px;
 
                 display: flex;
                 flex-direction: column;
@@ -144,10 +147,11 @@ body {
                 }
 
                 .boxText {
-                    
+                    margin-top: 15%;
                     font-size: 1.1rem;
                     font-weight: 200;
                     padding: 20px;
+                    width: 100%;
 
                 }
             }
@@ -516,8 +520,155 @@ body {
 }
 
 
-// @media screen and (max-width:450px) {
-//     .container{
-//         background-color: #1492e6;
-//     }
-// }
+@media screen and (max-width:1005px) {
+    .container {
+        background-color: white;
+
+        .background-1 {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+
+            .left-1 {
+                margin: 50px;
+            }
+            .button{
+                margin-left: 40px;
+            }
+            .sec1-Img {
+                
+                width: 100%;
+                margin-top: 10px;
+              padding: 10%;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 3px 6px #00000029;
+                border-radius: 19px;
+                opacity: 1;
+            }
+
+        }
+
+
+        .background-2 {
+            height: 120vh;
+
+            .subTitle {
+               margin-left: 10%;
+                margin-top: 70px;
+                margin-bottom: 20px;
+            }
+
+           .section-2{
+            flex-direction: column;
+           .boxes{
+            height: 200px;
+          margin-bottom:8%;
+           
+                .boxTitle {
+                    margin-top: 5px;
+                    font-size: 1rem;
+                    
+                }
+
+                .boxText {
+                    margin: 0;
+                    padding: 10%;
+                    font-size: 0.9rem;
+                    
+                }
+            }
+            }
+        }
+.background-3{
+    height:180vh;
+    .subTitle{
+        margin-left:10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section-3{
+        flex-direction: column;
+        .boxes2{
+            left:0;
+            justify-content: center;
+            align-items: center;
+            height:400px;
+            margin-bottom:8%;
+            .boxImg{
+                padding:20px;
+                width:100%;
+                height: 100%;
+            }
+            .boxImg-diff{
+                width: 90%;
+                height:70%;
+               padding:20px;
+            }
+            .boxText{
+                font-size: 1rem;
+            }
+            .boxText-2{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+.background-4{
+    margin-top: 30px;
+    height:180vh;
+    .subTitle{
+        margin-left:10%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.background-5{
+    height:150vh;
+    .section-5{
+        margin:10px;
+        height:125vh;
+        .sec5-button{
+            display: none;
+            .arrowButton{
+                display: none;
+            }
+        }
+    .pro-box{
+        position: relative;
+        flex-direction: column;
+        margin:0;
+        .boxes3{
+           margin-bottom: 8%;
+            height:320px;
+
+        }
+        }
+    }
+}
+.background-6{
+    height:60vh;
+    width:90%;
+    .section-6{
+        margin: 0;
+        justify-content: center;
+        .sec6-Img{
+            width: 100%;
+            height: 100%;
+        }
+        .sec6-text{
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding:20px;
+        }
+    }
+}
+    }
+}
