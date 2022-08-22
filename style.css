@@ -28,17 +28,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-.container .header .navList {
-  display: flex;
-  flex-direction: row;
+.container .header .navbar {
   margin-top: 30px;
-  justify-content: center;
-  align-items: center;
-  left: 20%;
-  right: 20%;
-  border-bottom: 1px solid black;
 }
-.container .header .navList .navLink {
+.container .header .navbar .nav-link {
   font-size: 1.5rem;
   color: black;
   font-weight: 600;
@@ -46,7 +39,7 @@ body {
   margin-left: 3px;
   text-decoration: none;
 }
-.container .header .navList .navLink:hover {
+.container .header .navbar .nav-link:hover {
   color: green;
 }
 .container .background-1 {

@@ -15,28 +15,79 @@
 </head>
 
 <body>
-    <div class="container">
+<div class="container">
 
         <!--header-->
-        <header class="header">
-            <div class="navTop">
+
+        <header class="header border-bottom border-dark">
+            <div class="navTop top-50 ">
                 <img src="img/Header.png" alt="network error" />
             </div>
-            <nav class="nav-bar">
+            <nav class="navbar navbar-expand-md  bg-white">
+                <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
 
-                <div class="navList">
-                    <a href="" class="navLink active">NAV1</a>
-                    <a href="" class="navLink">NAV2</a>
-                    <a href="" class="navLink">NAV3</a>
-                    <a href="" class="navLink">NAV4</a>
-                    <a href="" class="navLink">NAV5</a>
-                    <a href="" class="navLink">NAV6</a>
-                    <a href="" class="navLink">NAV7</a>
-                    <a href="" class="navLink">NAV8</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                  </button>
+                  <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active " aria-current="page" href="#">NAV1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NAV2</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">NAV3</a>
+                          </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              NAV4
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">NAV!</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+</ul>
+                        </li>
 
-                </div>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              NAV5
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">NAV!</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+</ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NAV6</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">NAV7</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">NAV8</a>
+                          </li>
+                              
+                            
+                           </ul>
+                        
+<!-- 
+                <div class="navbar-nav">
+                    <a href="" class="nav-link active">NAV1</a>
+                    <a href="" class="nav-link">NAV2</a>
+                    <a href="" class="nav-link">NAV3</a>
+                    <a href="" class="nav-link">NAV4</a>
+                    <a href="" class="nav-link">NAV5</a>
+                    <a href="" class="nav-link">NAV6</a>
+                    <a href="" class="nav-link">NAV7</a>
+                    <a href="" class="nav-link">NAV8</a> -->
 
-
+                <!-- </div> -->
+</div>
+</div>
             </nav>
         </header>
 
@@ -63,7 +114,7 @@
         <!--section 2-->
         <section class="background-2">
             <h2 class="subTitle">Lorem ipsum dolor sit amet consectetur </h2>
-            <div class="section-2 bd-grid">
+            <div class="section-2 d-flex justify-content-evenly">
                 <div class="boxes">
                     <h2 class="boxTitle">box no 1</h2>
                     <h3 class="boxText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nostrum
@@ -88,7 +139,7 @@
         <!--section 3-->
         <section class="background-3">
             <h2 class="subTitle">Lorem ipsum dolor, sit amet consectetur </h2>
-            <div class="section-3 ">
+            <div class="section-3 d-flex justify-content-evenly">
                 <div class="boxes2">
                     <img src="img/box2-1.png" alt="network error" class="boxImg" />
                     <h3 class="boxText">Lorem ipsum dolor sit amet.</h3>
@@ -163,7 +214,7 @@
         <!--section 5-->
 
         <section class="background-5">
-            <div class="section-5">
+            <div class="section-5 overflow-visible">
                 <div class="sec5-button">
                     <div class="arrowButton" onclick="sec5()" id="sec5-Btn">
                         <i class="fa-solid fa-angle-right" style="font-size: 35px;"></i></div>
@@ -183,46 +234,46 @@
                     <img src="img/gstar.png" alt="network error" class="banner">
                     <h2 class="sec5-Title">Lorem ipsum dolor sit.</h2>
                 </div>
-                <div class="pro-box">
-                    <div class="boxes3" id="sec5-Box1">
-                        <div class="profile">
+                <div class="pro-box d-flex justify-content-evenly">
+                    <div class="boxes3 card" id="sec5-Box1">
+                        <div class="profile card-body bottom-50">
                             <img src="img/pro1.png" alt="network error" class="sec5-Img">
-                            <h2 class="sec5-Name">John doe<span class="sec5-Position"><br>CEO</span></h2>
-                            <div class="rating">
+                            <h2 class="sec5-Name card-title">John doe<span class="sec5-Position"><br>CEO</span></h2>
+                            <div class="rating top-10 start-50">
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                             </div>
                         </div>
-                        <h3 class="sec5-Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus
+                        <h3 class="sec5-Text card-text top-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus
                             sapiente
                             veniam perferendis eius nemo deserunt id quos praesentium eaque.</h3>
                     </div>
 
-                    <div class="boxes3" id="sec5-Box2">
-                        <div class="profile">
+                    <div class="boxes3 card" id="sec5-Box2">
+                        <div class="profile card-body">
                             <img src="img/pro3.png" alt="network error" class="sec5-Img">
-                            <h2 class="sec5-Name">Amanda Green<span class="sec5-Position"><br>Operations Manager </span>
+                            <h2 class="sec5-Name card-title">Amanda Green<span class="sec5-Position"><br>Operations Manager </span>
                             </h2>
-                            <div class="rating">
+                            <div class="rating top-10 start-50">
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                             </div>
                         </div>
-                        <h3 class="sec5-Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus
+                        <h3 class="sec5-Text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus
                             sapiente
                             veniam perferendis eius nemo deserunt id quos praesentium eaque.</h3>
                     </div>
 
-                    <div class="boxes3" id="sec5-Box3">
-                        <div class="profile">
+                    <div class="boxes3 card" id="sec5-Box3">
+                        <div class="profile card-body">
                             <img src="img/pro2.png" alt="network error" class="sec5-Img">
-                            <h2 class="sec5-Name">Sam Cooper<span class="sec5-Position"><br>Customer service
+                            <h2 class="sec5-Name card-title">Sam Cooper<span class="sec5-Position"><br>Customer service
                                     manager</span></h2>
-                            <div class="rating">
+                            <div class="rating top-10 start-50">
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
                                 <img src="img/star.png" class="star" />
@@ -230,7 +281,7 @@
                             </div>
                         </div>
 
-                        <h3 class="sec5-Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus
+                        <h3 class="sec5-Text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus
                             sapiente
                             veniam perferendis eius nemo deserunt id quos praesentium eaque.</h3>
                     </div>

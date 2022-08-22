@@ -46,6 +46,7 @@ body {
         height: 20vh;
         position: relative;
 
+
         .navTop {
             display: flex;
             height: 10vh;
@@ -53,21 +54,15 @@ body {
             justify-content: center;
         }
 
-        .navList {
-            display: flex;
-            flex-direction: row;
+        .navbar{
+            
             margin-top: 30px;
-            justify-content: center;
-            align-items: center;
-            left: 20%;
-            right: 20%;
-            border-bottom: 1px solid black;
+        
 
-            .navLink {
+            .nav-link {
                 &:hover {
                     color: green;
                 }
-
                 font-size: 1.5rem;
                 color: black;
                 font-weight: 600;
@@ -149,6 +144,7 @@ body {
                 }
 
                 .boxText {
+                    
                     font-size: 1.1rem;
                     font-weight: 200;
                     padding: 20px;
@@ -451,18 +447,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     .background-6 {
         width: 100%;
         position: relative;
@@ -531,78 +515,9 @@ body {
     }
 }
 
-// @media screen and (max-width:650px) {
-//     .container {
-//         background-color: aqua;
 
-//         .background-3 {
-//             width: 50%;
-//             background-color: rgb(251, 187, 10);
-
-//             .section-3 {
-//                 width: 50%;
-
-//                 .boxes2 {
-//                     width: 0px;
-
-//                     .boxImg {
-//                         padding: 0;
-//                         width: 0;
-//                         height: 0;
-//                     }
-
-//                     .boxImg-diff {
-//                         width: 0;
-//                         height: 0;
-//                     }
-
-
-
-//                 }
-//             }
-//         }
-
-//         .background-5 {
-//             width: 50%;
-//             background-color: red;
-
-
-//             .section-5 {
-//                 width: 0;
-//                 margin: 0;
-
-//                 .sec5-button {
-//                     width: 0;
-//                     position: relative;
-
-//                     .arrowButton {
-//                         width: 0;
-//                     }
-//                 }
-
-//                 .sec5-Header {
-//                     width: 0;
-//                     padding: 0;
-
-
-//                 }
-
-//                 .pro-box {
-//                     width: 0;
-//                     margin: 0;
-
-//                     .boxes3 {
-
-//                         padding: 0;
-//                         margin: 0;
-//                         background-color: black;
-
-//                     }
-//                 }
-//             }
-//         }
-
-// // section1
-
-
+// @media screen and (max-width:450px) {
+//     .container{
+//         background-color: #1492e6;
 //     }
+// }
